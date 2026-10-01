@@ -1,0 +1,75 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good day",
+                "Howdy",
+                "Is anyone there?"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there, how can I help you?",
+                "Greetings! What can I do for you today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Have a good day",
+                "I'm leaving"
+            ],
+            "responses": [
+                "Goodbye!",
+                "Have a great day!",
+                "Talk to you later!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Anytime!",
+                "My pleasure!"
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Where is my order?",
+                "Track my package",
+                "Has my order shipped?",
+                "Order status"
+            ],
+            "responses": [
+                "Please provide your 8-digit Order ID to track your shipment.",
+                "You can track your order status in your account dashboard under 'My Orders'."
+            ]
+        },
+        {
+            "tag": "refund",
+            "patterns": [
+                "I want a refund",
+                "How do I return an item?",
+                "Can I get my money back?",
+                "Return policy"
+            ],
+            "responses": [
+                "Items can be returned within 30 days of delivery. Visit our returns portal to generate a shipping label."
+            ]
+        }
+    ]
+}
